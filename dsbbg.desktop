@@ -5,7 +5,7 @@ Exec=dsbbg
 Icon=preferences-desktop-wallpaper
 StartupNotify=false
 Terminal=false
-Categories=Settings;Utility;
+Categories=Settings;DesktopSettings;
 Name=Set background image
 Name[de]=Hintergrundbild setzen
 
