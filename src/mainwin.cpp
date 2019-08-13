@@ -81,6 +81,7 @@ MainWin::MainWin(QWidget *parent) : QMainWindow(parent)
 	hbox1->addStretch(1);
 
 	modeCB->addItem(tr("Fill"),   QVariant(QString("--bg-fill")));
+	modeCB->addItem(tr("Max"),    QVariant(QString("--bg-max")));
 	modeCB->addItem(tr("Tile"),   QVariant(QString("--bg-tile")));
 	modeCB->addItem(tr("Scale"),  QVariant(QString("--bg-scale")));
 	modeCB->addItem(tr("Center"), QVariant(QString("--bg-center")));
