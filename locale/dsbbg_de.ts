@@ -50,56 +50,61 @@
     </message>
     <message>
         <location filename="../src/mainwin.cpp" line="84"/>
+        <source>Max</source>
+        <translation>Maximal</translation>
+    </message>
+    <message>
+        <location filename="../src/mainwin.cpp" line="85"/>
         <source>Tile</source>
         <translation>Gekachelt</translation>
     </message>
     <message>
-        <location filename="../src/mainwin.cpp" line="85"/>
+        <location filename="../src/mainwin.cpp" line="86"/>
         <source>Scale</source>
         <translation>Skaliert</translation>
     </message>
     <message>
-        <location filename="../src/mainwin.cpp" line="86"/>
+        <location filename="../src/mainwin.cpp" line="87"/>
         <source>Center</source>
         <translation>Zentriert</translation>
     </message>
     <message>
-        <location filename="../src/mainwin.cpp" line="105"/>
+        <location filename="../src/mainwin.cpp" line="106"/>
         <source>Set background image</source>
         <translation>Hintergrundbild setzen</translation>
     </message>
     <message>
-        <location filename="../src/mainwin.cpp" line="160"/>
+        <location filename="../src/mainwin.cpp" line="161"/>
         <source>An error occured</source>
         <translation>Ein Fehler ist aufgetreten</translation>
     </message>
     <message>
-        <location filename="../src/mainwin.cpp" line="161"/>
+        <location filename="../src/mainwin.cpp" line="162"/>
         <source>Error</source>
         <translation>Fehler</translation>
     </message>
     <message>
-        <location filename="../src/mainwin.cpp" line="165"/>
+        <location filename="../src/mainwin.cpp" line="166"/>
         <source>Ok</source>
         <translation>Ok</translation>
     </message>
     <message>
-        <location filename="../src/mainwin.cpp" line="216"/>
+        <location filename="../src/mainwin.cpp" line="217"/>
         <source>Open Image</source>
         <translation>Bilddatei öffnen</translation>
     </message>
     <message>
-        <location filename="../src/mainwin.cpp" line="217"/>
+        <location filename="../src/mainwin.cpp" line="218"/>
         <source>Image Files (*.png *.jpg *.bmp)</source>
         <translation>Bilddateien (*.png *.jpg *.bmp)</translation>
     </message>
     <message>
-        <location filename="../src/mainwin.cpp" line="240"/>
+        <location filename="../src/mainwin.cpp" line="241"/>
         <source>Failed to execute &apos;%1&apos;: %2</source>
         <translation>Konnte &apos;%1&apos; nicht ausführen: %2</translation>
     </message>
     <message>
-        <location filename="../src/mainwin.cpp" line="250"/>
+        <location filename="../src/mainwin.cpp" line="251"/>
         <source>Command &apos;%1&apos; returned with an error:
 
 %2</source>
