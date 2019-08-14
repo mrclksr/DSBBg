@@ -276,7 +276,7 @@ void MainWin::closeEvent(QCloseEvent *event)
 
 void MainWin::quit()
 {
-	if (model->save() == -1)
+	if (model->canUndo() && model->save() == -1)
 		errWin(model->errmsg());
 	QApplication::quit();
 }
