@@ -30,6 +30,7 @@
 #include <QProcess>
 #include <QMessageBox>
 #include <QIcon>
+#include <QStatusBar>
 #include <errno.h>
 #include <pwd.h>
 #include <unistd.h>
@@ -61,6 +62,8 @@ MainWin::MainWin(QWidget *parent) : QMainWindow(parent)
 	model		       = new Model(this);
 	list		       = new List(this);
 	QItemSelectionModel *selections = new QItemSelectionModel(model);
+
+	statusBar()->showMessage("");
 
 	layout->setContentsMargins(15, 15, 15, 15);
 
@@ -190,6 +193,9 @@ void MainWin::catchSelectionChanged(const QItemSelection &selected,
 	if (model->rowCount() > 0) {
 		removePB->setEnabled(true);
 		setPB->setEnabled(true);
+		QString filename =
+			model->getFilename(list->currentIndex().row());
+		statusBar()->showMessage(filename);
 	}
 }
 
