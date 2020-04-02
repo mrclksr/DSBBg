@@ -13,7 +13,8 @@ PATH_FEH     = $${PREFIX}/bin/feh
 PATH_BGLIST  = backgrounds
 APPSDIR	     = $${PREFIX}/share/applications
 INSTALLS     = target desktopfile locales
-TRANSLATIONS = locale/$${PROGRAM}_de.ts
+TRANSLATIONS = locale/$${PROGRAM}_de.ts \
+               locale/$${PROGRAM}_fr.ts
 TEMPLATE     = app
 QT	    += widgets
 INCLUDEPATH += . lib lib/dsbcfg src 
